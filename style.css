@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #d9e2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-box {
+  position: relative;
+  margin-top: 20px;
+}
+#input {
+  width: 260px;
+  max-width: 100%;
+  padding: 9px;
+  border-radius: 7px;
+  border: transparent;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+#search {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: #555;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+.card {
+  width: 300px;
+  height: 550px;
+  border: none;
+  background: linear-gradient(257deg, #8c2f39, #e63946);
+  padding: 30px 0;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#icon img {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+#time {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "poppins", serif;
+  position: absolute;
+  top: 8px;
+  left: 22px;
+}
+#day {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "poppins", serif;
+  position: absolute;
+  top: 8px;
+  left: 130px;
+}
+#date {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "poppins", serif;
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+#state {
+  font-size: 30px;
+  color: #fff;
+  font-family: "poppins", serif;
+  font-weight: 400;
+}
+#city {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+#cloud {
+  color: #fff;
+  margin: 20px 0 0 0;
+  font-size: 45px;
+}
+.temp {
+  margin: 10px 0 0 0;
+  font-size: 30px;
+  color: #fff;
+  font-family: "poppins", serif;
+  font-weight: 700;
+}
+#condition {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "poppins", serif;
+  display: inline-block;
+  /* padding-right: 10px; */
+
+  text-transform: capitalize;
+}
+#humidity {
+  color: #fff;
+  padding-left: 10px;
+  border-radius: 3px;
+  font-weight: 400;
+  display: inline-block;
+}
+.next-day {
+  margin: 30px 0 0 0;
+  display: flex;
+}
+.next-day-time,
+.weather,
+.temprature {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "poppins", serif;
+  margin: 0;
+  padding: 0;
+  width: 85px;
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@400;500;600&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div id="time">
+          <span id="hour">04</span> : <span id="min">00</span> : <span id="sec"
+            >00 </span
+          ><span id="am-pm"> PM </span>
+        </div>
+        <div id="day">Friday</div>
+        <div id="date">
+          <span id="currentdate">11</span>-<span id="month">01</span>-
+          <span id="year">2023</span>
+        </div>
+        <div class="input-box">
+          <input type="text" id="input" placeholder="Search city or state" />
+          <i id="search" class="fa fa-search"></i>
+        </div>
+        <div id="state">Noida</div>
+        <div id="city">Sector 62</div>
+        <!-- <i id="cloud" class="fa fa-cloud" aria-hidden="true"></i> -->
+        <div id="icon"><img id="icon-img" src="https://openweathermap.org/img/wn/10d@2x.png" alt=""></div>
+        <div class="temp"><span id="celcius">4</span>&#176;</div>
+        <div class="condition-aqi">
+          <div id="condition">Showers</div>
+          <div id="humidity">Humidity : <span id="humidity-no"> 00</span></div>
+        </div>
+        <div class="next-day">
+          <div class="next-day-time">Sat, Jan 12</div>
+          <div class="weather">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+          </div>
+          <div class="temprature">15.4&#176;</div>
+        </div>
+        <div class="next-day">
+          <div class="next-day-time">Sat, Jan 12</div>
+          <div class="weather">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+          </div>
+          <div class="temprature">15.4&#176;</div>
+        </div>
+        <div class="next-day">
+          <div class="next-day-time">Thu, Jan 10</div>
+          <div class="weather">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+          </div>
+          <div class="temprature">15.4&#176;</div>
+        </div>
+        <div class="next-day">
+          <div class="next-day-time">Sat, Jan 12</div>
+          <div class="weather">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+          </div>
+          <div class="temprature">15.4&#176;</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
